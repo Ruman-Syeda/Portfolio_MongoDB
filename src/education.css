@@ -1,0 +1,65 @@
+#works {
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  padding:0 1rem;
+}
+
+
+.worksTitle{
+  margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.worksDesc {
+  font-weight: 300;
+  font-size: 2rem;
+}
+.worksImgs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 300px;
+  
+}
+
+.worksImg{
+  object-fit: cover;
+  height: 20rem;
+  margin: auto;
+  border-radius: 1rem;
+  align-items:center;
+  justify-content:center;
+  vertical-align:baseline;
+}
+.workBtn {
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 2rem;
+  background: white;
+  font-size: 1rem;
+}
+
+label{
+  font-size:30px;
+}
+
+button{
+  font-size:30px;
+}
+
+@media screen and (max-width:585px){
+  .worksImg{
+  height: 50vw;
+}
+}
